@@ -1,6 +1,8 @@
 language: "node_js"
 node_js:
-  - "0.10"
-  - "0.12"
-  - "iojs"
+  - "0.10" # Compat
+  - "0.12" # Compat
+  - "iojs" # Compat
+  - "4.2.6" # LTS
+  - "5.5.0" # Latest stable
 script: make test-coveralls
