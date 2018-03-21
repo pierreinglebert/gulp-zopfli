@@ -1,6 +1,6 @@
 var fs     = require('fs');
 var gulp   = require('gulp');
-var log    = require('gulp-util').log;
+var log    = require('fancy-log');
 var zopfli = require('../');
 var nid    = require('nid');
 var rename = require('gulp-rename');
